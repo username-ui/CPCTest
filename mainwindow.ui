@@ -66,6 +66,19 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>590</y>
+      <width>371</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开源于https://github.com/username-ui/CPSTest</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

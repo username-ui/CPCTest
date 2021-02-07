@@ -19,6 +19,11 @@ MainWindow::MainWindow(QWidget *parent)
     setFixedSize(this->width(),this->height());                     // 禁止拖动窗口大小
     setWindowTitle("CPS测试");
 
+    ui->label_2->setAttribute(Qt::WA_TransparentForMouseEvents,true);
+
+    ui->label_2->setWindowFlags(Qt::FramelessWindowHint);
+    ui->label_2->setAttribute(Qt::WA_TranslucentBackground);
+
     timer = new QTimer(this);
     why_there_are_two_timer_here = new QTimer(this);
 
